@@ -6,6 +6,8 @@ This project focuses on retrieving and utilizing **Spotify metadata**—such as 
 
 The core contribution is the automated retrieval of **8,000+ Spotify IDs**, opening doors for deeper analytics and insights on popularity, follower counts, and estimated monthly listeners using spotify data.
 
+[![Watch the video](/resources/YT.png)](https://youtu.be/3O7xC46kONs)
+
 ### Why the automation matters ?
 
 Manually collecting Spotify IDs, such as searching using the artist's name on spotify, is time-consuming. This project streamlines the process using **SPARQL queries via Wikidata**, allowing you to:
