@@ -31,6 +31,30 @@ SPOTIFY_CLIENT_ID=your_client_id_here
 SPOTIFY_CLIENT_SECRET=your_client_secret_here
 ```
 
+## 🎯 ID Collection - Collect list of IDs from SPARQL
+
+Download the list of CSV files and use it to get further meta data about artists using the Spoitify API end points. Here's a SPARQL code that gets list of Spotify IDs for 1000 artists.
+
+```SPARQL
+SELECT ?artist ?artistLabel ?spotifyID WHERE {
+  ?artist wdt:P31 wd:Q5;      # human
+          wdt:P106 wd:Q639669;  # occupation: musician
+          wdt:P1902 ?spotifyID. # has Spotify artist ID
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+}
+LIMIT 1000
+
+```
+
+### Available Endpoints
+
+- **Artists**: Search, get info, top tracks, related artists
+- **Tracks**: Search, get info, audio features, analysis
+- **Albums**: Search, get info, tracks
+- **Playlists**: Get info, tracks
+- **Search**: Multi-type search functionality
+- **Audio Features**: Track characteristics and analysis
+
 ## API end points
 
 [WebAPI](https://developer.spotify.com/documentation/web-api) and experminet using the [UI tool](https://developer.spotify.com/documentation/web-api/reference/get-an-album) to pull the right data in JSON.
@@ -53,9 +77,11 @@ SPOTIFY_CLIENT_SECRET=your_client_secret_here
 - **"Missing credentials"**: Check your `.env` file
 - **Import errors**: Run `pipenv install` to install dependencies
 - **API limits**: Spotify has rate limits, scripts include delays
+- **Lookup failures**: Run `create_lookup_dataframes()` first
 
 ## 📝 Notes
 
 - Spotify doesn't provide exact streaming numbers publicly
 - Estimates are based on popularity scores and track data
 - Results may vary based on current trends and API data
+- ID collection includes rate limiting to respect API limits
