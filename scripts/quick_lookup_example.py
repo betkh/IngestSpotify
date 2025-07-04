@@ -1,4 +1,4 @@
-from spotify_id_collector import SpotifyIDCollector
+from scripts.spotify_id_collector import SpotifyIDCollector
 import pandas as pd
 
 
