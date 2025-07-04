@@ -54,6 +54,7 @@ pipenv run jupyter notebook kendrick_vs_drake_analysis.ipynb
 - Basic example showing how to get artist information
 - Uses environment variables for security
 - Includes error handling
+- [API end points](https://developer.spotify.com/documentation/web-api)
 
 ### `spotify_analytics.py`
 
