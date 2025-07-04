@@ -31,66 +31,9 @@ SPOTIFY_CLIENT_ID=your_client_id_here
 SPOTIFY_CLIENT_SECRET=your_client_secret_here
 ```
 
-### 4. Run the Analytics
+## API end points
 
-```bash
-# Basic artist info with detailed stats
-pipenv run python spotify.py
-
-# Top 10 streamers analysis
-pipenv run python spotify_analytics.py
-
-# Justin Bieber monthly listeners timeline
-pipenv run python justin_bieber_timeline.py
-
-# Kendrick Lamar vs Drake comparison (Jupyter Notebook)
-pipenv run jupyter notebook kendrick_vs_drake_analysis.ipynb
-```
-
-## 📊 What the Scripts Do
-
-### `spotify.py`
-
-- Basic example showing how to get artist information
-- Uses environment variables for security
-- Includes error handling
-- [API end points](https://developer.spotify.com/documentation/web-api)
-
-### `spotify_analytics.py`
-
-- Finds top 10 streamers globally
-- Analyzes popularity, followers, and estimated streams
-- Saves results to CSV file
-- Provides detailed analytics output
-
-### `justin_bieber_timeline.py`
-
-- Tracks Justin Bieber's monthly listeners over his entire career
-- Creates historical timeline with major career milestones
-- Generates visualizations and CSV data
-- Shows popularity and follower growth trends
-
-### `kendrick_vs_drake_analysis.ipynb`
-
-- Comprehensive Jupyter notebook comparing Kendrick Lamar vs Drake
-- Analyzes streaming patterns over the last 5 years (2019-2024)
-- Interactive visualizations and statistical analysis
-- Determines winners in different categories
-- Perfect for settling the "who's better" debate with data!
-
-## 📁 Project Structure
-
-```
-topMusic/
-├── .env                    # Your Spotify credentials (not in git)
-├── .gitignore             # Excludes sensitive files
-├── Pipfile                # Python dependencies
-├── README.md              # This file
-├── spotify.py                     # Basic Spotify API example
-├── spotify_analytics.py           # Top streamers analysis
-├── justin_bieber_timeline.py      # Justin Bieber career timeline
-└── kendrick_vs_drake_analysis.ipynb  # Kendrick vs Drake comparison
-```
+[WebAPI](https://developer.spotify.com/documentation/web-api)
 
 ## 🔒 Security Notes
 
