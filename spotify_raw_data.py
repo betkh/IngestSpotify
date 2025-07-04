@@ -1,25 +1,10 @@
-import os
-import spotipy
-from spotipy.oauth2 import SpotifyClientCredentials
 from dotenv import load_dotenv
 import json
 
+from setup.setupClient import setup_spotify_client
+
 # Load environment variables
 load_dotenv()
-
-
-def setup_spotify_client():
-    """Setup Spotify client with credentials from environment variables"""
-    client_id = os.getenv('SPOTIFY_CLIENT_ID')
-    client_secret = os.getenv('SPOTIFY_CLIENT_SECRET')
-
-    if not client_id or not client_secret:
-        raise ValueError("Missing Spotify credentials in .env file")
-
-    return spotipy.Spotify(auth_manager=SpotifyClientCredentials(
-        client_id=client_id,
-        client_secret=client_secret
-    ))
 
 
 def show_raw_data_structure(sp, artist_id, artist_name):
