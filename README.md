@@ -33,7 +33,7 @@ SPOTIFY_CLIENT_SECRET=your_client_secret_here
 
 ## API end points
 
-[WebAPI](https://developer.spotify.com/documentation/web-api)
+[WebAPI](https://developer.spotify.com/documentation/web-api) and experminet using the [UI tool](https://developer.spotify.com/documentation/web-api/reference/get-an-album) to pull the right data in JSON.
 
 ## 🔒 Security Notes
 
