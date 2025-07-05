@@ -6,7 +6,7 @@ This project focuses on retrieving and utilizing **Spotify metadata**—such as 
 
 The core contribution is the automated retrieval of **8,000+ Spotify IDs**, opening doors for deeper analytics and insights on popularity, follower counts, and estimated monthly listeners using spotify data.
 
-[![Watch the video](/resources/YT.png)](https://youtu.be/3O7xC46kONs)
+[![Watch the video](/resources/YT.png)](https://youtu.be/BMG9xX09JMg)
 
 ### Why the automation matters ?
 
