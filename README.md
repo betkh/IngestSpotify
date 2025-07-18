@@ -97,12 +97,12 @@ SPOTIFY_CLIENT_ID=your_client_id
 SPOTIFY_CLIENT_SECRET=your_client_secret
 ```
 
-> ✅ Ensure `.env` is listed in `.gitignore` to avoid committing sensitive information.
+>  Ensure `.env` is listed in `.gitignore` to avoid committing sensitive information.
 
 # Further information & References
 
-- 📚 [Spotify Web API Documentation](https://developer.spotify.com/documentation/web-api)
-- 🧪 [Try API Requests in Web Tool](https://developer.spotify.com/documentation/web-api/reference/get-an-album)
+-  [Spotify Web API Documentation](https://developer.spotify.com/documentation/web-api)
+-  [Try API Requests in Web Tool](https://developer.spotify.com/documentation/web-api/reference/get-an-album)
 
 ### 🔌 Spotify API Supported Endpoints
 
