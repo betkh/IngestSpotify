@@ -1,4 +1,4 @@
-# 🎧 Spotify Data & Metadata Collector
+# 🎧 Spotify Metadata Collector
 
 ## 📌 Overview
 
