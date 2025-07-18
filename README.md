@@ -1,6 +1,6 @@
 # 🎧 Spotify Metadata Collector
 
-## 📌 Overview
+## Overview
 
 This project focuses on retrieving and utilizing **Spotify metadata**—such as artists, albums, and tracks—for data enrichment, analytics, and integration with other datasets.
 
