@@ -1,4 +1,4 @@
-# 🎧 Spotify Metadata Collector
+# 🎧 Spotify Metadata Collector 
 
 ## Overview
 
@@ -56,7 +56,7 @@ SELECT ?album ?albumLabel ?spotifyID ?artist ?artistLabel WHERE {
 LIMIT 1000000
 ```
 
-> 🎯 You can download the result as a CSV directly from the query interface.
+> You can download the result as a CSV directly from the query interface.
 
 <img width="100%" alt="query result" src="resources/query.png">
 
