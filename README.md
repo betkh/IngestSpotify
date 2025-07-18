@@ -16,7 +16,7 @@ Manually collecting Spotify IDs, such as searching using the artist's name on sp
 - Use these IDs to pull enriched metadata via Spotify's Web API
 - Enable large-scale music analytics and research
 
-### 🔍 Collecting Spotify IDs
+### Collecting Spotify IDs
 
 #### Why IDs Matter?
 
